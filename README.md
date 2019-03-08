@@ -3,7 +3,7 @@ Simplify downloading and updating Factorio mods on your server.
 
 This script assumes:
 * You're in the factorio install directory when running it
-* You're using the default mod-list.json format
+* You're using the default *mod-list.json* format
 * You want the latest version of the mod
 
 To run it:
