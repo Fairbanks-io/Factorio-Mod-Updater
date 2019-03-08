@@ -1,0 +1,176 @@
+{
+  "mods": [
+    {
+      "name": "base",
+      "enabled": true
+    },
+    {
+      "name": "aai-programmable-structures",
+      "enabled": true
+    },
+    {
+      "name": "aai-programmable-vehicles",
+      "enabled": true
+    },
+    {
+      "name": "aai-signals",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-chaingunner",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-flame-tank",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-flame-tumbler",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-hauler",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-laser-tank",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-miner",
+      "enabled": true
+    },
+    {
+      "name": "aai-vehicles-warden",
+      "enabled": true
+    },
+    {
+      "name": "aai-zones",
+      "enabled": true
+    },
+    {
+      "name": "Aircraft",
+      "enabled": true
+    },
+    {
+      "name": "Armored-train",
+      "enabled": true
+    },
+    {
+      "name": "AtomicArtillery",
+      "enabled": true
+    },
+    {
+      "name": "attach-notes",
+      "enabled": true
+    },
+    {
+      "name": "auto-research",
+      "enabled": true
+    },
+    {
+      "name": "AutoDeconstruct",
+      "enabled": true
+    },
+    {
+      "name": "BigBags",
+      "enabled": true
+    },
+    {
+      "name": "Bottleneck",
+      "enabled": true
+    },
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+    {
+      "name": "color-coding",
+      "enabled": true
+    },
+    {
+      "name": "Crafting_Speed_Research",
+      "enabled": true
+    },
+    {
+      "name": "even-distribution",
+      "enabled": true
+    },
+    {
+      "name": "Factorissimo2",
+      "enabled": true
+    },
+    {
+      "name": "FARL",
+      "enabled": true
+    },
+    {
+      "name": "Honk",
+      "enabled": true
+    },
+    {
+      "name": "Laser_Beam_Turrets",
+      "enabled": true
+    },
+    {
+      "name": "LogisticTrainNetwork",
+      "enabled": true
+    },
+    {
+      "name": "long-reach",
+      "enabled": true
+    },
+    {
+      "name": "minimap-autohide",
+      "enabled": true
+    },
+    {
+      "name": "Nanobots",
+      "enabled": true
+    },
+    {
+      "name": "Orbital Ion Cannon",
+      "enabled": true
+    },
+    {
+      "name": "Power Armor MK3",
+      "enabled": true
+    },
+    {
+      "name": "Rampant",
+      "enabled": true
+    },
+    {
+      "name": "Slower_Quickreplace",
+      "enabled": true
+    },
+    {
+      "name": "Squeak Through",
+      "enabled": true
+    },
+    {
+      "name": "TheFatController",
+      "enabled": true
+    },
+    {
+      "name": "upgrade-planner",
+      "enabled": true
+    },
+    {
+      "name": "VehicleSnap",
+      "enabled": true
+    },
+    {
+      "name": "Warehousing",
+      "enabled": true
+    },
+    {
+      "name": "Waterfill_v15",
+      "enabled": true
+    },
+    {
+      "name": "YARM",
+      "enabled": true
+    }
+  ]
+}
