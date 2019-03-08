@@ -137,10 +137,6 @@
       "enabled": true
     },
     {
-      "name": "Rampant",
-      "enabled": true
-    },
-    {
       "name": "Slower_Quickreplace",
       "enabled": true
     },
@@ -150,10 +146,6 @@
     },
     {
       "name": "TheFatController",
-      "enabled": true
-    },
-    {
-      "name": "upgrade-planner",
       "enabled": true
     },
     {

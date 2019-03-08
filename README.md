@@ -8,7 +8,7 @@ This script assumes:
 
 To run it:
 * Download it to the factorio install directory
-* Ensure a *mod-list.json* file is present ([sample](https://github.com/Fairbanks-io/Factorio-Mod-Updater/blob/master/mod-list.json))
+* Ensure a *mod-list.json* file is present ([0.17.x sample](https://github.com/Fairbanks-io/Factorio-Mod-Updater/blob/master/mod-list.json))
 * Set the script as executable: `chmod +x factorio-mod-updater.sh`
 * Run it: `./factorio-mod-updater.sh`
 
