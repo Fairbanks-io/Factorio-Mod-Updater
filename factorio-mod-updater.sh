@@ -33,11 +33,17 @@ do
 		echo -e "\xF0\x9F\x96\xAB Downloaded: $file_name";
 		count=$((count + 1));
 	else
-		echo -e "${RED}\xE2\x9D\x8C Unable to find a suitable download for $mod${NC}"
+		echo -e "${YELLOW}\xE2\x9D\x8C Unable to find a compatible version of $mod${NC}"
 	fi
 done
 
 sleep 3;
-echo -e "${GREEN}\xE2\x9C\x94 [Done]${NC} $count of $total Factorio Mods Downloaded!";
+
+if [ "$count" == "$total" ]
+then
+	echo -e "${GREEN}\xE2\x9C\x94 [Done]${NC} $count of $total Factorio Mods Downloaded!";
+else
+	echo -e "${YELLOW}[Warning]${NC} Only $count of $total Factorio Mods Downloaded! This may be due to version compatibility issues.";
+fi
 
 exit;
