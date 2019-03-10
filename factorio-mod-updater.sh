@@ -25,9 +25,9 @@ mkdir -p mods;
 for mod in "${arr[@]:1}"; 
 do 
 	base_url="https://mods.factorio.com/api/mods/$mod";
-	download_url=$(curl --silent $base_url | jq -r '.releases | .[-1].download_url');
-	file_name=$(curl --silent $base_url | jq -r '.releases | .[-1].file_name');
-	if [ "$download_url" != "null" ]
+	download_url=$(curl --silent $base_url | jq -r '.releases | .[-1] | select( .info_json.factorio_version == "0.17" ) | .download_url');
+	file_name=$(curl --silent $base_url | jq -r '.releases | .[-1] | select( .info_json.factorio_version == "0.17" ) | .file_name');
+	if [ "$download_url" != "" ]
 	then
 		wget -bqc -nc --quiet "https://mods.factorio.com/$download_url" -O "mods/$file_name" > /dev/null 2>&1;
 		echo -e "\xF0\x9F\x96\xAB Downloaded: $file_name";
