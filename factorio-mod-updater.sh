@@ -1,7 +1,5 @@
 #!/bin/bash
 
-VER=0.17
-
 # Colors
 RED='\033[0;91m';
 GREEN='\033[0;92m';
